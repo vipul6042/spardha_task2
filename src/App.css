@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  padding-top: 5%;
+  width: 80px; /* Adjust the width as needed */
+  background-color: #7c92e5;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 20px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.Football {
+  background-image: url('./icons/football-icon.png');
+}
+
+.Basketball {
+  background-image: url('./icons/basketball-icon.png');
+}
+
+.Tennis {
+  background-image: url('./icons/tennis-icon.png');
+}
+.Cricket{
+  background-image: url('./icons/cricket.png');
+}
+.Hurdle{
+  background-image: url('./icons/hurdle.png');
+} 
+.Badminton{
+  background-image: url('./icons/badminton.png');
+}
+.Table{
+  background-image: url('./icons/table\ tennis.jpg');
+}
+/* Add styles for more sports icons as needed */
+
+.content {
+  padding: 20px;
+  text-align: center;
+}
+.app{
+  display: flex;
+  flex-direction: row;
+}
+.header{
+  
+  justify-content: center;
+  text-align: center;
+  
+ } 
+h1{
+  font-family: fangsong;
+  font-size: -webkit-xxx-large;
+}
+p{
+  padding: 10px;
+}
+.display{
+  width: -webkit-fill-available;
+  background-color: #aacdec;
+}
+.iitimg{
+  width: 84px;
+}
